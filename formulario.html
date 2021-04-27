@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form>
+        <input type="text" name="txtnom" placeholder="Ingrese su nombre"> apellido:<input type="text" name="txtape" required><span style="color: rgb(230, 40, 40)">#</span> <br>
+        Elige un color: <input type="color">   <br> 
+        numero: <input type="number" min="1" max="10">
+        fecha y hora<input type="datetime-local"><br>
+        correo <input type="email">
+        rango <input type="range"><br>
+
+        <fieldset>
+            <legend>Controles de opcion</legend>
+            Empleo actual:<br>
+            <input type="radio" name="pto" value="timecomplet">Tiempo completo<br>
+            <input type="radio" name="pto" value="timeparcial" checked>Tiempo parcial<br>
+            <input type="radio" name="pto" value="sinempleo">Sin empleo <br>
+      </fieldset>
+
+        <fieldset>
+              <legend>Check</legend>
+              Hobyes:<br>
+              <input type="checkbox">Dibujo<br>
+              <input type="checkbox">Futbol<br>
+              <input type="checkbox">Videojuego<br>
+        </fieldset>
+
+        <br>
+    
+            <select name="select">
+                <option>Peru</option>
+                <option>Brasil</option>
+                <option>España</option>
+                <option>Argentina</option>
+            </select>
+        <br>
+        
+        Busca tu archivo:<input type="file" accept=".jpeg, .jpg, .png">
+
+        <p>
+            <input type="submit" value="registrar">
+            <input type="reset" value="borrar">
+        </p>
+
+    </form>
+</body>
+</html>
