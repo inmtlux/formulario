@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+#canva{
+    width: 470px;
+    height: 460px;
+    padding: 30;
+}    
+#nombre{
+    border: 3px solid red;
+}
+#email{
+    border: 3px solid red;
+}
+#telef{
+    border: 3px solid red;
+}
+#pais{
+    border: 3px solid red;
+}
+#num{
+    border: 3px solid red;
+}
+#tarje{
+    border: 3px solid red;
+}
+#normal{
+    background-color: rgb(127, 255, 159);
+    width: 500px;
+    height: 60px;
+}
+#text{
+    background-color: rgb(252, 252, 252);
+    width: 500px;
+    height: 405px;
+}
+#salo{
+    background-color: rgb(127, 255, 159);
+    width: 500px;
+    height: 60px;
+}
+#caja{
+    position:absolute;
+    bottom: 280px;
+    right: 0;
+    left: 557px;
+}
+#seccionUNO{
+    background: blue;
+}
